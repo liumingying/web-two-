@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> web2BigTest</title>
+</head>
+<style type="text/css">
+	*{
+		margin: 0px;
+		padding:0px;
+	}
+	
+	.head{
+		width: 1180px;
+		height: 28px;
+		margin:0 auto;
+	}
+	.lhead{
+		width: 80px;
+		height: 28px;
+		float: left;
+	}
+	.rhead{
+		width: 1100px;
+		height: 28px;
+		float:left;
+	}
+	.top_QQ{
+		margin-left: 358px;
+		color: gray;
+	}
+	.top_weixin{
+		margin-left: 15px;
+	}
+	.top_weibo{
+		margin-left: 15px;
+	}
+	.login{
+		margin-left: 15px;
+	}
+	.regest{
+		margin-left: 15px;
+	}
+	.xiaoxi{
+		margin-left: 15px;
+	}
+	.dingdan{
+		margin-left: 14px;
+		font-size: 13px;
+		color: gray;
+	}
+	.shoujiban{
+		margin-left: 14px;
+		font-size: 13px;
+		color: gray;
+	}
+	.gouwu{
+		margin-left: 9px;
+	}
+	.hh{
+		width: 1180px;
+		height: 65px;
+		margin-top: 18px;
+	}
+	.lhh{
+		float: left;
+		margin-left: 0px;
+	}
+	.rhh{
+		float: left;
+		padding-left: 105px;
+	}
+	.serch{
+		width: 586px;
+		height: 42px;
+	}
+	.lserch{
+		float: left;
+	}
+	.rserch{
+		float: left;
+		margin-top: 12px;
+
+	}
+	.btn{
+		width: 255px;
+		height: 45px;
+		float: left;
+		padding-left: 90px;
+	}
+	.btn1{
+		width: 85px;
+		height: 40px;
+		float: left;
+		background-color: white;
+		margin-top: 12px;
+	}
+	.btn11{
+		width: 16px;
+		height:14px; 
+	}
+	.btn2{
+		width: 85px;
+		height: 40px;
+		float: left;
+		margin-top: 12px;
+		background-color: white;
+	}	
+	.btn3{
+		width: 85px;
+		height: 40px;
+		float: left;
+		margin-top: 12px;
+		background-color: orange;
+	}
+	.dawenzi{
+		width: 1180px;
+		height: 14px;
+	}
+	.wenzi{
+		width: 700px;
+		height: 16px;
+		margin-left: 245px;
+	}
+	.kuai{
+		height: 45px;
+		width: 1180px;
+		margin:auto;
+		margin-top: 12px;
+	}
+	.kuai0{
+		width: 100%;
+		background-color: black;
+		
+	}
+	ul,li{
+		list-style: none;
+	}
+	.li1{
+		padding-top: 5px;
+		width:100px;
+		height: 40px;
+		text-decoration: none;
+		float: left;
+		background-color: #fe0d4a ;
+		text-align: center;
+		color: white;
+
+	}
+	.li0{
+		padding-top: 5px;
+		width: 130px;
+		height: 40px;
+		text-decoration: none;
+		float: left;
+		color: white;
+		text-align: center;
+	}
+	.li0:hover{
+		background-color: #fe0d4a;
+	}
+	.li2{
+		float: left;
+	}
+	.duijiang{
+		margin-top: -7px;
+	}
+	.cover{
+		background-color: white;
+		width: 100%;
+		top: 0px;
+		z-index: 1;
+	}
+	.cover0{
+		width: 1180px;
+		height: 130px;
+		margin:0 auto;
+		
+	}
+	.baikuai{
+		display: inline-block;
+		width: 170px;
+		height: 425px;
+		border-bottom: 1px solid orange;
+	}
+	.baikuaileft{
+		float: left;
+		width: 25px;
+		height: 425px;
+		background-color: #4c4c4a;
+	}
+	.baikuailefta{
+		font-size: 15px;
+		color: red;
+		text-decoration: none;
+		padding-top: 20px;
+		text-align: center;
+	}
+	.baikuairight{
+		float: left;
+		width: 145px;
+		height: 425px;
+		background-color: white;
+	}
+	.zi0{
+		padding-top:11px;
+	}
+	.zi0 a{
+		text-decoration: none;
+		font-size: 15px;
+		color: black;
+	}
+	.dakuai{
+		float: right;
+		display: inline-block;
+		width: 1010px;
+		height: 360px;
+		background-color: black;
+	}
+	.picture{
+		float: left;
+		width: 800px;
+		height: 360px;
+		background-color: pink;
+	}
+	.huadong{
+		float: left;
+		width: 210px;
+		height: 360px;
+		background-color: blue;
+	}
+	.leftxiaokuai{
+		float: left;
+		width: 170px;
+		height: 125px;
+		display: inline-block;
+		background-color: white;
+	}
+	.lili1{
+		font-size: 15px;
+		color: gray;
+		padding-top: 5px;
+	}
+	.lili1 img{
+		padding-left: 6px;
+		padding-top: 5px;
+	}
+	.pictures{
+		display: inline-block;
+		float: right;
+		width: 1010px;
+		height: 190px;
+	}
+	.pictures1{
+		float: left;
+		width: 800px;
+		height: 190px;
+
+	}
+	.pictures1 img{
+		float: left;
+		display:inline-block;
+		margin-top: -69px;
+	}
+	.pictures2{
+		float: left;
+		display: inline-block;
+		width: 210px;
+		height: 190px;
+		background-color: white;
+		font-size: 12px;
+		margin-top: -69px;
+	}
+	.pictures2 img{
+		padding-left:16px ;
+		padding-top:7px;
+	}
+	.pictures2 span{
+		color: red;
+	}
+	.pictures2 input{
+		width: 124px;
+		height: 24px;
+		margin-left: 16px;
+		margin-top: 10px;
+	}
+	.pictures2 select{
+		margin-left: 16px;
+		margin-top: 10px;
+	}
+	.pictures2 p{
+		display: inline-block;
+		color: red;
+		padding-left: -18px;
+	}	
+	.pictures2 button{
+		margin-left: 16px;
+		margin-top: 6px;
+		background-color: orange;
+		color: white;
+		width: 176px;
+		height: 25px;
+		border-radius: 20px;
+	}
+	.bottom0{
+		width: 1180px;
+		background-color:white;
+		border-bottom: 1px solid gray; 
+	}
+	.bottom0left{
+		display: inline-block;
+		float: left;
+		width: 170px;
+		height: 175px;
+	}
+	.bottom0right{
+		margin-top: -10px;
+		display: inline-block;
+		float: right;
+		width: 1010px;
+		height: 17px;
+	}
+	.bottom0right1{
+		float: left;
+		width: 800px;
+		height: 175px;
+	}
+	.a0{
+		font-size: 15px;
+		color: black;
+		text-decoration: none;
+	}
+	.a1{
+		font-size: 12px;
+		color: gray;
+		text-decoration:none;
+	}
+	.bottom0right1a{
+	    float: left;
+	    width: 74px;
+	    height: 120px;
+	    padding-left:60px ;
+	    padding-top:30px;
+	}
+	.bottom0right1b{
+		float: left;
+	    width: 74px;
+	    height: 94px;
+	    padding-left:60px ;
+	    padding-top:30px;
+	}
+	.bottom0right1c{
+		float: left;
+	    width: 74px;
+	    height: 120px;
+	    padding-left:60px ;
+	    padding-top:30px;
+	}
+	.bottom0right1d{
+		float: left;
+	    width: 74px;
+	    height: 94px;
+	    padding-left:60px ;
+	    padding-top:30px;
+	}
+	.bottom0right1e{
+		float: left;
+	    width: 74px;
+	    height: 94px;
+	    padding-left:60px ;
+	    padding-top:30px;
+	}
+	.bottom0right1f{
+		float: left;
+	    width: 74px;
+	    height: 120px;
+	    padding-left:30px ;
+	    padding-top:30px;
+	}
+
+	.bottom0right2{
+
+		float: left;
+		width: 210px;
+		height: 17px;
+	}
+	.bottom0right2 img{
+		padding-left:40px;
+		padding-top: 30px;
+	}
+	.wai2{
+		width: 100%;
+		height: 30px;
+		background-color: white; 
+	}
+	.bottoma{
+		width: 1180px;
+		margin:0 auto;
+		height: 30px;
+		background-color: white;
+		border-bottom: 1px solid gray;
+	}
+	.xiaozi{
+		padding-left: 310px;
+		width: 660px;
+		height: 30px;
+
+	}
+	.ppp{
+		text-align: center;
+		font-size: 12px;
+		color: gray;
+	}
+	
+	.imgs{
+		display: inline-block;
+	}
+	
+	.wai{
+		width: 100%;
+		height: 180px;
+		background-color: white;
+	}	
+	.biggest{
+		width: 1180px;
+		margin:0 auto;
+		height: 180px;
+		background-color: white;
+	}
+	.clear{
+		clear: all;
+	}
+	.mi{
+		width: 100%;
+		height: 780px;
+		background-color:#f7f6f5; 
+	}
+	.huitiao{
+		height: 40px;
+		width: 1180px;
+		margin: 0 auto;
+		font-size: 12px;
+		color: black;
+		padding-top: 12px;
+	}
+	.middle{
+		width: 1180px;
+		margin:0 auto;
+		height: 635px;
+		background-color: white;
+	}
+	.ml{
+
+		float: left;
+		width: 980px;
+		height: 635px;
+	}
+
+	.ml0{
+		/*position: absolute;*/
+		float: left;
+
+		width: 446px;
+		height: 520px;
+		background-color:white;
+	}
+	.ml01{
+		display: inline-block;
+		width: 410px;
+		height: 410px;
+		background-color:white;
+	}
+	#box{
+		top: 20px;
+		left: 18px;
+		float: left;
+		/*width: 820px;*/
+		height: 410px;
+		position: relative;
+		margin: 0px auto;
+	}
+
+	#slider{
+		width: 168px;
+		height: 168px;
+		position: absolute;
+		left: 18px;
+		top: 20px;
+		background:#CCC;
+		opacity: 0.4;
+		cursor: move;
+		display: none;
+		filter:alpha(opacity=40);
+	}
+	#img2{
+		float: left;
+		border: 1px solid gray;
+		position: absolute;
+		left: 408px;
+		top: 0;
+		display: none;
+		width: 410px;
+		height: 410px;
+		overflow: hidden;
+	}
+
+	#Bimg{
+		position: absolute;
+		left:0;
+		top: 0;
+	}
+	.ml02{
+		float: left;
+		width: 410px;
+		height:72px;
+		padding-top: 23px;
+		padding-left: 18px;
+		background-color:white;
+	}
+	.borderHave{
+		width: 60px;
+		height: 60px;
+		border:2px solid orange;
+		text-align: center;
+	}
+	.borderNone{
+		width: 55px;
+		height: 55px;
+		border: none;
+	}
+	.mlright{
+		display: inline-block;
+		float: left;
+		width: 534px;
+		height: 520px;
+		background-color:white;
+	}
+	.mr0{
+		width: 534px;
+		height: 85px;
+		padding-top:20px ;
+		background-color: white;
+	}
+	.p2{
+		margin-top: 5px;
+		font-size: 13px;
+		color: gray;
+		line-height: 20px;
+	}
+	.mr{
+		padding-left: 18px;
+		float: left;
+		width: 180px;
+		height: 635px;
+		background-color: #f7f6f5; 
+	}
+	.pointer1{
+		background: url(./btimg/duigou.png) no-repeat bottom right ;
+		line-height: 40px;
+		border:1px solid #fe0d4a;
+	}
+	.last{
+		width: 1185px;
+		height: 105px;
+		margin:0 auto;
+	}
+	.mm{
+		width: 100%;
+		height: 56px;
+	}
+	.mm0{
+		width: 1180px;
+		height: 56px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.lastbutton1{
+		background-color: white;
+		font-size: 17px;
+		color:#ff0754;
+		width: 150px;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+		border: 1px solid #ff0754;
+		border-radius:5px;
+		margin-left: 21px;
+		margin-top: 22px;
+	}
+	.lastbutton2{
+		background-color:#ff0754;
+		font-size: 17px;
+		color:white;
+		width: 150px;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+		border: 1px solid #ff0754;
+		border-radius:5px;
+		margin-left: 21px;
+		margin-top: 22px;
+	}
+	
+	.littlebox{
+		width: 108px;
+		height: 32px;
+		padding-top:18px;
+		display: inline-block;
+	}
+	.lb{
+		width: 27px;
+		height: 30px;
+		background-color: white;
+		/*display: inline-block;*/
+		float: left;
+		border: 1px solid gray;
+		cursor:pointer;
+	}
+	#number{
+		float: left;
+		width:50px;
+		height: 29px;
+		border: 1px solid gray;
+		display: inline-block;
+		text-align: center;
+		line-height: 29px;
+	}
+	.not-allowed{
+		width: 27px;
+		height: 30px;
+		background-color: white;
+		/*display: inline-block;*/
+		float: left;
+		border: 1px solid gray;
+		cursor: not-allowed;
+	}
+	
+
+</style>
+<body>
+	
+	<div class="cover" >
+			<div class="cover0" >
+			<div class="head">
+			<div class="head1">
+				<div class="lhead">
+					<a href="#" style="margin-left: 0;font-size: 12px;color: gray;text-decoration:none; ">帮5买，享帮帮</a>
+				</div>
+				<div class="rhead">
+					<a href="#"  style="width: 24px; padding-left: 18px; background: url(./btimg/common_min.png)0px -31px no-repeat; text-decoration:none;" class="top_QQ"></a>
+					<a href="#"  style="width: 24px; padding-left: 18px; background: url(./btimg/common_min.png)0px -53px no-repeat; text-decoration:none;" class="top_weixin"></a>
+					<a href="#"  style="width: 24px; padding-left: 18px; background: url(./btimg/common_min.png)0px -75px no-repeat; text-decoration:none;" class="top_weibo"></a>
+					
+					<a href="#" class="login" style="text-decoration:none; font-size: 13px;color: gray;">登录</a>
+					<a href="#" class="regest" style="text-decoration:none; font-size: 13px;color: gray;" >注册</a>
+					<a href="#"  style="width: 24px; padding-left: 20px; background: url(./btimg/common_min.png)-4px -113px no-repeat;text-decoration:none;
+					font-size: 13px;color: gray;" class="xiaoxi">消息</a>
+					
+					<a href="#" style="background:url(./btimg/dingdan.jpg) no-repeat 0 2px; padding-left: 17px;text-decoration:none; " class="dingdan">我的订单</a>
+					<a href="#" class="shoucang" style="font-size: 13px;color: gray; margin-left: 15px; text-decoration:none;">我的收藏</a>
+					<a href="#" style="font-size: 13px;color: gray; margin-left: 15px; text-decoration:none;">帮钻兑换 </a>
+					<a href="#" style="background:url(./btimg/phone.png)no-repeat 0 2px; padding-left: 11px; text-decoration:none; " class="shoujiban">手机版</a>
+					<a href="#" style="font-size: 13px;color: gray; margin-left: 15px; text-decoration:none;">帮5淘</a>
+					<a href="#" style="font-size: 13px;color: gray; margin-left: 15px; text-decoration:none;">客户服务</a>
+					<a href="#" style="background:url(./btimg/gouwuche.jpg)no-repeat 0px 2px; text-decoration:none; padding-left: 17px; font-size: 13px; color:gray;" class="gouwu">购物车 <span style="font-size: 13px;color: orange;">0</span></a>
+					
+				</div>
+			</div>
+		</div>
+		<div class="hh">
+			<div class="lhh">
+			<img src="./btimg/logo_03.jpg">
+			</div>
+			<div class="rhh">
+				<div class="serch">
+					<div class="lserch">
+						<input type="text" style="width: 500px;height: 38px;border:2px solid orange; margin-top: 12px; padding-right: 0px; " placeholder=或关键词，直通全网，快速帮5购！"输入商品网址">
+					</div>
+					<div class="rserch">
+						<button style="background-color: orange;font-size: 14px;color: white; width: 82px;height: 42px;border:0px solid orange;">搜全网</button>
+					</div>
+					
+				</div>
+			</div>
+			<div class="btn">
+					<div class="btn1">
+					<img src="./btimg/common_min_xiaoxi_03.png" style="text-align: center; padding-left: 30px; ">
+					<p style="font-size: 10px;color: gray;">400-085-0505</p>
+						
+					</div>
+					<div class="btn2">
+						<img src="./btimg/common_min_xinfeng_03.png" style="text-align: center; padding-left: 30px; ">
+					<p style="font-size: 10px;color: gray;">mc@b5m.com</p>
+					</div>
+					<div class="btn3">
+
+					<p style="font-size: 15px;color: white; margin-top: 15px; margin-left: 5px;">?常见问题</p>
+					</div>
+			</div>
+		</div>
+		<div class="dawenzi">
+			<div class="wenzi">
+			
+			<a href="#" style="font-size:12px;color: red; text-decoration:none; " >洗发护发</a>
+			<img src="./btimg/line_03.png" style="margin-left: 5px;">
+			<a href="#" style="font-size:12px;color: red; text-decoration:none; " >日本纸尿裤</a>
+			<img src="./btimg/line_03.png" style="margin-left: 5px;">
+			<a href="#" style="font-size:12px;color: ＃787878; text-decoration:none; ">身体乳</a>
+			<img src="./btimg/line_03.png" style="margin-left: 5px;">
+			<a href="#" <a href="#" style="font-size:12px;color: ＃989898; text-decoration:none; ">内衣文胸</a>
+			<img src="./btimg/line_03.png" style="margin-left: 5px;">
+			<a href="#" <a href="#" style="font-size:12px;color:gray;text-decoration:none; ">iPone 6s</a>
+			<img src="./btimg/line_03.png" style="margin-left: 5px;">
+			<a href="#" style="font-size:12px;color: gray;text-decoration:none; ">iPad Air2</a>
+			<img src="./btimg/line_03.png" style="margin-left: 5px;">
+			<a href="#" style="font-size:12px;color: ＃787878; text-decoration:none; ">牛仔裤</a>
+			<img src="./btimg/line_03.png" style="margin-left: 5px;">
+			<a href="#" style="font-size:12px;color: ＃787878; text-decoration:none; ">奶粉</a>
+			<img src="./btimg/line_03.png" style="margin-left: 5px;">
+			<a href="#" style="font-size:12px;color: ＃787878; text-decoration:none; ">防嗮霜</a>
+			<img src="./btimg/line_03.png" style="margin-left: 5px;">
+			<a href="#" style="font-size:12px;color: ＃787878; text-decoration:none; ">伞</a>
+		</div>
+	</div>
+	</div>
+	</div>
+	<div class="kuai0">
+	<div class="kuai">
+		<ul>
+			<li class="li1">首页</li>
+			<li class="li0">热门品牌</li>
+			<li class="li0">美妆个户</li>
+			<li class="li0">服饰鞋包</li>
+			<li class="li0">母婴生活</li>
+			<li class="li0">食品保健</li>
+			<li class="li0">韩国直邮</li>
+			<li class="li0">跨境购</li>
+			<li class="li2"><img src="./btimg/ff_03.jpg"></li>
+		</ul>
+	</div>
+</div>
+<div class="mi">
+	<div class="huitiao">
+		首页>美容护肤/美体/精油>防晒>韩国 RE:CIPE 水晶清爽防晒喷雾SPF50 150ml/瓶
+	</div>
+	<div class="middle">
+		<div class="ml">
+			<div class="ml0">
+				<div id="box">
+					<div class="ml01" id="img1">
+						<img src="./btimg/pp0.jpeg" style="border: 1px solid gray;" id="Simg" >
+						<div id="slider"></div>
+					</div>
+					<div id="img2">
+						<img src="./btimg/pp0.jpeg" width="1000" height="1000" id="Bimg">
+					</div>
+				</div>
+
+				<div class="ml02">
+					<img src="./btimg/spanl.jpg">
+					<img src="./btimg/sp0.jpeg" id="scale1">
+					<img src="./btimg/sp1.jpeg" id="scale2">
+					<img src="./btimg/spanr.jpg" style="margin-left: 232px; ">
+				</div>
+			</div>
+			<div class="mlright">
+				<div class="mr0">
+					<p class="p1">韩国 RE:CIPE 水晶清爽防晒喷雾SPF50 150ml/瓶</p>
+					<p class="p2">【限购3件】超透明无痕防晒，防水防汗定妆，保湿降温不黏腻。水晶防晒喷雾，喷后皮<br>肤水润，不油，不留白，更不像防晒霜那样抹不开，非常实用，开始存货吧。</p>
+
+				</div>
+				<span style="font-size: 13px;padding-left: 17px; ">价格&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span><p style="display: inline; font-size: 15px; color: red;" class="p3">¥71</p>
+				<img src="./btimg/ss_09.jpg">
+				<span style="font-size: 13px;padding-left: 17px; ">化妆品净含量&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span><span style=" display: inline-block; cursor: pointer; width: 60px;
+				height: 40px;" id="pon1" class="pointer1">150ml</span>&nbsp&nbsp&nbsp<span style=" display: inline-block; cursor: pointer; width: 60px;height: 40px;"  id="pon2">200ml</span><br>
+				<span style="font-size: 13px;padding-left: 17px; ">数量&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+						<div class="littlebox">
+							<button id="littlebox1" class="lb">-</button>
+							<input type="text" name="1" id="number" value="1" > 
+							<button id="littlebox2" class="lb" >+</button>
+						</div>
+				&nbsp&nbsp&nbsp&nbsp&nbsp件（库存<span id="xiaoliang">5</span>件）
+				</span>
+
+
+
+				<img src="./btimg/oo_03.jpg"><br>
+				<span style="font-size: 13px;padding-left: 110px; ">您已选择&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span><p style="display: inline; font-size: 15px; color: red;" class="p3" id="p3">"150ml"</p><br>
+	
+				<button class="lastbutton1" id="lastbutton1" >立即购买</button>
+				<button class="lastbutton2" id="lastbutton2">加入购物车</button>
+	<div id="mengban" style="width: 100%;height: 1300px;background-color: rgba(222,220,216,0.5);z-index: 1000;position: absolute;display: none;top:0;left: 0;" >
+		<div style="width: 398px;height: 228px;border: 5px solid #aca9d3; overflow:hidden;background-color: white;opacity: 1;position: absolute;top: 360px;left: 520px;">
+			<div style="height: 16px;margin:  10px 0 0 370px; cursor: default; " id="x">X</div>
+			<img src="./btimg/rr11_02.jpg">
+			<div style="height: 42px;padding: 16px 0 0  30px;">
+				<button id='one' class="lastbutton1" style="width: 148px;height: 40px;border: 1px solid red;text-align: center;background-color: white;color: #ff0754;border-radius: 5%;">继续购物</button>
+				<button id='two' class="lastbutton2" style="width: 148px;height: 40px;border: 1px solid red;text-align: center;background-color: #ff0754;color: white;border-radius: 5%;margin-left: 20px;">去购物车结算</button>
+			</div>
+		</div>
+	</div>
+			</div>
+		</div>
+		<div class="mr">
+				<img src="./btimg/ww_07.jpg">
+		</div>
+		
+	</div>
+	<div class="last">
+		<img src="./btimg/a_07.jpg">
+	</div>
+</div>
+
+   <div class="wai">
+	<div class="biggest">
+		
+	<div class="bottom0">
+		<div class="bottom0left">
+			<img src="./btimg/loginB.jpg">
+		</div>
+		<div class="bottom0right">
+			<div class="bottom0right1">
+				<div class="bottom0right1a">
+					<ul>
+					<li><a href="" class="a0">购物指南</a></li>
+					<li class="lia">
+						<a href="" class="a1">如何下单</a>
+					</li>
+					<li><a href="" class="a1">帮5购流程</a>
+					</li>
+					<li><a href="" class="a1">订单查询</a>
+					</li>
+					<li><a href="" class="a1">物流配送</a></li>
+					</ul>
+				</div>
+				<div class="bottom0right1b">
+				<ul>
+					<li><a href="" class="a0">支付相关</a></li>
+					<li class="lia">
+						<a href="" class="a1">支付方式</a>
+					</li>
+					<li><a href="" class="a1">安全设置</a>
+					</li>
+					<li><a href="" class="a1">账号信息</a>
+					</li>
+				</ul>	
+				</div>
+				<div class="bottom0right1c">
+				<ul>
+					<li><a href="" class="a0">售后服务</a></li>
+					<li class="lia">
+						<a href="" class="a1">取消订单</a>
+					</li>
+					<li><a href="" class="a1">申请售后</a>
+					</li>
+					<li><a href="" class="a1">退货流程</a>
+					</li>
+					<li><a href="" class="a1">退款相关</a></li>
+				</ul>	
+				</div>
+				<div class="bottom0right1d">
+				<ul>
+					<li><a href="" class="a0">VIP服务</a></li>
+					<li class="lia">
+						<a href="" class="a1">VIP优惠</a>
+					</li>
+					<li><a href="" class="a1">如何成为VIP</a>
+					</li>
+					<li><a href="" class="a1">超级帮钻</a>
+					</li>
+				</ul>	
+				</div>	
+				<div class="bottom0right1e">
+				<ul>
+					<li><a href="" class="a0">帮韩品</a></li>
+					<li class="lia">
+						<a href="" class="a1">韩国正品</a>
+					</li>
+					<li><a href="" class="a1">闪电发货</a>
+					</li>
+					<li><a href="" class="a1">帮韩品售后</a>
+					</li>
+				</ul>	
+				</div>
+				<div class="bottom0right1f"> 
+				<ul>
+					<li><a href="" class="a0">更多</a></li>
+					<li class="lia">
+						<a href="" class="a1">手机APP</a>
+					</li>
+					<li><a href="" class="a1">帮5采APP</a>
+					</li>
+					<li><a href="" class="a1">帮5淘插件</a>
+					</li>
+					<li><a href="" class="a1">其他</a></li>
+				</ul>	
+				</div>
+			</div>
+			<div class="bottom0right2">
+				<img src="./btimg/erweima.jpg">
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="wai2">
+
+	<div class="bottoma">
+		<div class="xiaozi">
+			<!-- <a href="">关于帮5买</a> -->
+			<a href="#" style="font-size:12px;color: gray; text-decoration:none; ">关于帮5买</a>
+			<img src="./btimg/line_03.png" style="margin-left: 5px;">
+			<a href="#" style="font-size:12px;color: gray; text-decoration:none; ">联系我们</a>
+			<img src="./btimg/line_03.png" style="margin-left: 5px;">
+			<a href="#" style="font-size:12px;color: gray; text-decoration:none; ">合作商家</a>
+			<img src="./btimg/line_03.png" style="margin-left: 5px;">
+			<a href="#" style="font-size:12px;color: gray; text-decoration:none; ">友情链接</a>
+			<img src="./btimg/line_03.png" style="margin-left: 5px;">
+			<a href="#" style="font-size:12px;color: gray; text-decoration:none; ">加入我们</a>
+			<img src="./btimg/line_03.png" style="margin-left: 5px;">
+			<a href="#" style="font-size:12px;color: gray; text-decoration:none; ">移动应用</a>
+			<img src="./btimg/line_03.png" style="margin-left: 5px;">
+			<a href="#" style="font-size:12px;color: gray; text-decoration:none; ">热门</a>
+			<img src="./btimg/line_03.png" style="margin-left: 5px;">
+			<a href="#" style="font-size:12px;color: gray; text-decoration:none; ">广告联盟</a>
+			<img src="./btimg/line_03.png" style="margin-left: 5px;">
+			<a href="#" style="font-size:12px;color: gray; text-decoration:none; ">使用条款</a>
+		</div>
+	</div>
+</div>
+<div class="divdiv">
+	<p class="ppp">
+Copyright © 2011-2015 B5M.COM. ALL rights reserved. Powered byB5Msoft Co.,Ltd. <br>
+增值电信业务经营许可证：沪B2-20130065号|中华人民共和国互联网药品信息服务资格证书（沪）-非经营性-2013-0034沪卫(中医)网审【2015】10032号 沪ICP备11034776号-3| 食品流通许可证：<br> 
+SP3101151410301755
+</p>
+<div class="mm">
+	<div class="mm0">
+		<img src="./btimg/bo1.gif" class="imgs">
+		<img src="./btimg/bo2.png">
+		<img src="./btimg/bo3.gif">
+		<img src="./btimg/bo4.png">
+		<img src="./btimg/bo5.png">
+		<img src="./btimg/bo6.png">
+		<img src="./btimg/bo7.png">
+	</div>
+</div>
+
+
+</div>
+<div class="clear"></div>
+</body>
+<script type="text/javascript">
+	window.onload = function(){
+		var cover = document.getElementsByClassName('cover')[0];
+		window.onscroll = function () {
+			var st = document.documentElement.scrollTop || document.body.scrollTop;
+			if (st>180) {
+				cover.style.position = 'fixed';
+			}
+			else{
+				cover.style.position = 'static';
+			}
+		}
+		//放大镜
+		var box = document.getElementById('box');
+		var img1 = document.getElementById('img1');
+		var img2 = document.getElementById('img2');
+		var slider = document.getElementById('slider');
+		var bimg = document.getElementById('Bimg');
+		var simg = document.getElementById('Simg');
+		//鼠标移入  
+		img1.onmouseover = function () {
+			slider.style.display= 'block' ;
+			img2.style.display = 'block';
+		}
+		//鼠标移出
+		img1.onmouseout = function () {
+			slider.style.display = 'none';
+			img2.style.display = 'none';
+		}
+		//鼠标移动
+		img1.onmousemove = function (ev) { //事件对象
+			var oL = ev.clientX - box.offsetLeft - (slider.offsetWidth/2);
+			var oT = ev.clientY - box.offsetTop - (slider.offsetHeight/2);
+			var oMaxw = img1.offsetWidth - slider.offsetWidth;
+			var oMaxh = img1.offsetHeight - slider.offsetHeight;
+			oL =oL>oMaxw?oMaxw:oL<0?0:oL;
+			oT = oT>oMaxh?oMaxh:oT<0?0:oT;
+			
+			slider.style.left = oL + 'px';
+			slider.style.top = oT  +'px';
+			// m 表示放大系数
+			var m =bimg.offsetHeight/img1.offsetHeight ;
+			
+			bimg.style.left = '-'+oL*m+'px';//注意是*号
+			bimg.style.top = '-'+oT*m+'px';
+		}
+
+		//点击切换图片
+		var  scale1 = document.getElementById('scale1');
+		var scale2 = document.getElementById('scale2');
+		scale1.onclick = function () {
+			scale1.setAttribute('class','borderHave');
+			scale2.removeAttribute('class','borderNone');
+			simg.src='./btimg/pp0.jpeg';
+			bimg.src = './btimg/pp0.jpeg';
+
+		}
+		scale2.onclick = function () {
+			scale2.setAttribute('class','borderHave');
+			scale1.removeAttribute('class','borderNone');
+			simg.src='./btimg/pp1.jpeg';
+			bimg.src = './btimg/pp1.jpeg';
+
+		}
+		//毫升切换
+		var pon1 = document.getElementById('pon1');
+		var pon2 = document.getElementById('pon2');
+		var p3 = document.getElementById('p3');
+		pon1.onclick = function () {
+			pon1.setAttribute('class','pointer1');
+			pon2.removeAttribute('class','pointer1');
+			p3.innerHTML = '"'+pon1.innerHTML+'"';
+		}
+		pon2.onclick = function () {
+			pon2.setAttribute('class','pointer1');
+			pon1.removeAttribute('class','pointer1');
+			p3.innerHTML = '"'+pon2.innerHTML+'"';
+		}
+
+		//销量添加
+		var littlebox1 = document.getElementById('littlebox1');
+		var littlebox2 = document.getElementById('littlebox2');
+		var number = document.getElementById('number');
+		var xiaoliang = document.getElementById('xiaoliang');
+		var nnn;
+		littlebox1.onclick = function (){
+
+			nnn=number.value ;
+			littlebox1.setAttribute('class','lb');
+			if (nnn>1) {
+				nnn-=1;
+			}
+			number.value=nnn;
+			if (nnn==1) {
+				littlebox1.setAttribute('class','not-allowed');
+			}
+		}
+		littlebox2.onclick = function (){
+			nnn=number.value ;
+			littlebox2.setAttribute('class','lb');
+			if (nnn<xiaoliang.innerHTML) {
+				nnn =parseInt(nnn)+1;
+
+			}
+			number.value=nnn;
+			if(nnn==xiaoliang.innerHTML){
+				littlebox2.setAttribute('class','not-allowed');
+			}
+		}
+
+		//悬浮窗
+		// var lastbutton1 = document.getElementById('lastbutton1');
+		// var lastbutton2 = document.getElementById('lastbutton2');
+		// var disapire =  document.getElementById('disapire');
+		// lastbutton2.onclick = function (){
+
+		// 	disapire.style.display= 'block' ;
+		// }
+
+		var btn=document.getElementById('lastbutton2');
+    var mengban=document.getElementById('mengban');
+    var x=document.getElementById('x');
+   	var one=document.getElementById('one');
+   	var two=document.getElementById('two');
+    btn.onclick=function(){
+    	mengban.style.display='block';
+    }
+    one.onclick=function(){
+    	mengban.style.display='none';
+    }
+    two.onclick=function(){
+    	mengban.style.display='none';
+    }
+    x.onclick=function(){
+    	mengban.style.display='none';
+    }
+
+
+	}
+		
+		
+	
+		
+</script>
+</html>
